@@ -1,12 +1,13 @@
 // import { useState } from 'react'
-
+import SignUp from "./Components/SignUp"
+import SucessMsg from "./Components/SuccessMsg"
 
 function App() {
 
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <main>
+      <SignUp />
+    </main>
   )
 }
 
