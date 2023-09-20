@@ -1,7 +1,8 @@
-export default function Button({ text, disabled, onClick }) {
+export default function Button({ text, disabled, onClick, type }) {
     return (
         <button
-        className="p-3 text-green-500 border border-green-500 rounded hover:bg-green-500 hover:text-white disabled:bg-slate-900 disabled:text-white"
+        type={type}
+        className="w-full p-3 mt-6 text-sm font-bold text-white rounded-lg bg-dark-slate-grey hover:bg-tomato disabled:bg-slate-200 disabled:text-white"
         disabled={disabled}
         onClick={onClick}
         >{ text }</button>
